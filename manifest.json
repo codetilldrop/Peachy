@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Sample",
+  "description": "This is a simple web extension. You can use this project as a template to build your own web extensions",
+  "version": "1",
+  "author": "Dillon de Silva",
+ "browser_action": {
+    "default_title": "Web extension"
+  },
+ "chrome_url_overrides" : {
+   "newtab": "new_tab.html"
+ },
+  "permissions": ["activeTab"]
+}
