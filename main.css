@@ -4,3 +4,27 @@
   text-align: center;
   margin-top: 10%;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.8;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  size: 100em;
+}
+
+.center {
+  text-align: center;
+}
