@@ -4,6 +4,7 @@ btnAuthInstagram.addEventListener("click", () => authToInstagram());
 function authToInstagram() {
   // Get redirect url from chrome once authentication is successful
   var redirectUrl = chrome.identity.getRedirectURL();
+  console.log(redirectUrl);
   // This is a stub clientId
   var clientId = "abc";
   var authUrl = "https://instagram.com/oauth/authorize/?" +
